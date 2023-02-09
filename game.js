@@ -20,7 +20,7 @@ class Player {
 		this.dx = 0;
 		this.dy = 0;
 		this.speed = 150;
-		this.playedPreviously = true; //just so we don't make them sit through the intro again
+		this.playedPreviously = false; //just so we don't make them sit through the intro again
 		this.canMove = false;
 		this.isReading = false; //if they're in the middle reading some text we don't want to like hit them with a shoe or something
 		this.offered = false;
